@@ -1,0 +1,38 @@
+div{
+    padding-left: 1%;
+    height: 400px;
+    width: 400px;
+    border: 2px solid #36366B;
+    background-color: #EAA200;
+    border-radius: 2%;
+}
+
+a{
+    color: #0200EB;
+    font-family: "Roboto"
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    color: #36366B;
+    font-family: "Roboto"
+}
+
+[type=text]{
+    width: 50%;
+    margin-bottom: 1%;
+    background-color: grey;
+    border-color: #36366B;
+}
+
+[type=checkbox]{
+    color: grey;
+}
+
+[type=button]{
+    width: 25%;
+    font-family: "Roboto"
+}
