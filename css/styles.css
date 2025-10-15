@@ -1,5 +1,5 @@
 div{
-    padding-left: 1%;
+    padding-left: 2%;
     height: 400px;
     width: 400px;
     border: 2px solid #36366B;
@@ -7,23 +7,34 @@ div{
     border-radius: 2%;
 }
 
+.centered{
+    text-align: center;
+}
+
+.downsize{
+    font-size: smaller;
+    opacity: 80%;
+}
+
 a{
     color: #0200EB;
-    font-family: "Roboto"
+    font-family: "Roboto";
 }
 
 p{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Roboto";
 }
 
 h1{
     color: #36366B;
-    font-family: "Roboto"
+    font-family: "Lobster";
+    margin-bottom: 2%;
+    text-align: center;
 }
 
 [type=text]{
-    width: 50%;
-    margin-bottom: 1%;
+    width: 90%;
+    margin-bottom: 5%;
     background-color: grey;
     border-color: #36366B;
 }
@@ -33,6 +44,13 @@ h1{
 }
 
 [type=button]{
-    width: 25%;
-    font-family: "Roboto"
+    width: 90%;
+    height: 15%;
+    font-family: "Roboto";
+    border-radius: 2%;
+    margin-bottom: 4%;
+}
+
+[placeholder]{
+    background-color: white;
 }
